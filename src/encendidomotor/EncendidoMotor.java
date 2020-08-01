@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Implemente un algoritmo que me indique el tipo de encendido al ingresar una 
+de vehiculo.
  */
 package encendidomotor;
 
@@ -23,11 +22,11 @@ interface Encendido_Motor_Electrico{
     }
 }
 public class EncendidoMotor implements Encendido_Motor_Otto, Encendido_Motor_Electrico{
-    /*@Override
+    @Override
     public String Control(String vehiculo){
         return Encendido_Motor_Otto.super.Control(vehiculo);
-    }*/
-     @Override
+    }
+    /* @Override
     public String Control(String vehiculo){
     return Encendido_Motor_Electrico.super.Control(vehiculo);
     }
